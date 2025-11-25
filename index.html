@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ramanarayanan G | Portfolio</title>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
+
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+
+    <div class="cursor"></div>
+
+    <!-- NAVBAR -->
+    <nav class="navbar">
+        <div class="logo">RG</div>
+
+        <ul class="nav-links">
+            <li><a href="#home" class="nav-link">Home</a></li>
+            <li><a class="nav-link about-btn" href="#about">About</a></li>
+            <li><a class="nav-link skills-btn" href="#skills">Skills</a></li>
+            <li><a class="nav-link projects-btn">Projects</a></li>
+            <li><a href="#Certificates" class="nav-link">Certificates</a></li>
+            <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+
+        <a href="https://www.linkedin.com/in/ramanarayanan-g-262a51317" class="btn-primary tilt-element" target="_blank">Let's Talk</a>
+
+        <div class="hamburger">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+    </nav>
+
+    <!-- HERO SECTION -->
+    <section id="home" class="hero">
+        <div id="particles-js"></div>
+
+        <div class="hero-content">
+            <div class="hero-text">
+                <h2 class="greeting">Hello, I'm</h2>
+                <h1 class="name">Ramanarayanan G</h1>
+                <p class="title">
+                    Electronics & Communication Student • VLSI Designer • Open to PCB Designing Roles
+                </p>
+
+                <div class="hero-btns">
+                    <a class="btn-primary tilt-element" target="_blank" href="https://www.linkedin.com/in/ramanarayanan-g-262a51317">Let's Connect</a>
+                    <a class="btn-secondary tilt-element about-btn" href="#about">About Me</a>
+                </div>
+            </div>
+
+            <div class="hero-image tilt-element">
+                <div class="img-placeholder">
+                    <i class="fa-solid fa-user-astronaut"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+
+            <p>Feel free to reach out for collaborations or just a friendly hello!</p>
+
+            <div class="social-links">
+                <a href="https://www.linkedin.com/in/ramanarayanan-g-262a51317" target="_blank" class="social-btn">
+                    <i class="fa-brands fa-linkedin-in"></i> <span>LinkedIn</span>
+                </a>
+
+                <a href="mailto:example@email.com" class="social-btn">
+                    <i class="fa-solid fa-envelope"></i> <span>Email</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2024 Ramanarayanan G. All Rights Reserved.</p>
+    </footer>
+
+    <!-- ABOUT MODAL -->
+    <div id="about-modal" class="modal">
+        <div class="modal-ball"></div>
+
+        <div class="modal-content">
+            <span class="close-modal about-close">&times;</span>
+
+            <div class="modal-body">
+                <div class="modal-text">
+                    <h2>About Me</h2>
+                    <p>Hi! I'm <strong>Ramanarayanan</strong> — an aspiring ECE Engineer & VLSI enthusiast.</p>
+                    <p>Passionate about digital design, embedded systems, PCB development, and solving engineering challenges.</p>
+                </div>
+
+                <div class="modal-image">
+                    <img src="https://via.placeholder.com/300" class="profile-img" />
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- SKILLS MODAL -->
+    <div id="skills-modal" class="modal">
+        <div class="modal-ball"></div>
+
+        <div class="modal-content">
+            <span class="close-modal close-skills">&times;</span>
+
+            <div class="modal-body skills-body">
+
+                <h2>My Skills</h2>
+
+                <div class="skills-scroll">
+
+                    <div class="skill-bar-item" data-percent="70">
+                        <div class="hover-bar">
+                            <div class="fill"></div>
+                            <div class="percent-text">70%</div>
+                        </div>
+                        <div class="skill-label">Python</div>
+                    </div>
+
+                    <div class="skill-bar-item" data-percent="60">
+                        <div class="hover-bar">
+                            <div class="fill"></div>
+                            <div class="percent-text">60%</div>
+                        </div>
+                        <div class="skill-label">MySQL</div>
+                    </div>
+
+                    <div class="skill-bar-item" data-percent="75">
+                        <div class="hover-bar">
+                            <div class="fill"></div>
+                            <div class="percent-text">75%</div>
+                        </div>
+                        <div class="skill-label">DB Connectors</div>
+                    </div>
+
+                    <div class="skill-bar-item" data-percent="0">
+                        <div class="hover-bar">
+                            <div class="fill"></div>
+                            <div class="percent-text">0%</div>
+                        </div>
+                        <div class="skill-label">Embedded C</div>
+                    </div>
+
+                    <div class="skill-bar-item" data-percent="10">
+                        <div class="hover-bar">
+                            <div class="fill"></div>
+                            <div class="percent-text">10%</div>
+                        </div>
+                        <div class="skill-label">PCB Design</div>
+                    </div>
+
+                    <div class="skill-bar-item" data-percent="0">
+                        <div class="hover-bar">
+                            <div class="fill"></div>
+                            <div class="percent-text">0%</div>
+                        </div>
+                        <div class="skill-label">VLSI</div>
+                    </div>
+
+                    <div class="skill-bar-item" data-percent="80">
+                        <div class="hover-bar">
+                            <div class="fill"></div>
+                            <div class="percent-text">80%</div>
+                        </div>
+                        <div class="skill-label">Video Editing</div>
+                    </div>
+
+                    <div class="skill-bar-item" data-percent="55">
+                        <div class="hover-bar">
+                            <div class="fill"></div>
+                            <div class="percent-text">55%</div>
+                        </div>
+                        <div class="skill-label">Web Dev</div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+    <!-- PROJECTS MODAL -->
+     <div id="projects-modal" class="modal">
+        <div class="modal-ball"></div>
+        
+        <div class="modal-content">
+            <span class="close-modal close-projects">&times;</span>
+
+            <div class="modal-body projects-body">
+                <h2>My Projects</h2>
+
+                <div class="projects-list">
+
+                    <a href="https://github.com/Raman4rayanan/ramanarayanan.g-portfolio" 
+                        target="_blank" class="project-item">
+                        <i class="fa-brands fa-github"></i> Portfolio Website
+                    </a>
+
+                    <a href="https://github.com/Raman4rayanan/my-portfolio" 
+                        target="_blank" class="project-item">
+                        <i class="fa-brands fa-github"></i> Old Portfolio website
+                    </a>
+
+                    <a href="https://github.com/Raman4rayanan/quantum-coders-backend"
+                        target="_blank" class="project-item">
+                        <i class="fa-brands fa-github"></i> Front End For Quantum Coders
+                    </a>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- SCRIPTS -->
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.8.0/vanilla-tilt.min.js"></script>
+    <script src="script.js"></script>
+
+</body>
+</html>
